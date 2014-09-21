@@ -3,8 +3,8 @@ BMI for Adult
 
 ### A Project Presentation for Developing Data Product course 
 
-- author: Linghuan Zeng
-- date: 9/20/2014
+- Author: Linghuan Zeng
+- Date: 9/21/2014
 
 
 Contents
@@ -43,21 +43,22 @@ R Code and Example (Using Formula 1)
 ========================================================   
 
 ```r
-BMI <- function(w,h){round(w / (h)^2,2)}
+BMI <- function(w,h){round(w / (h)^2,1)}
 weightstatus <- function(w, h) { BMI <- round(w / (h)^2,2)
         if ( BMI < 18.50) {wstatus <- 'Underweight'}
         else if ( BMI < 25.00 ) {wstatus <- 'Normal'}
         else if ( BMI < 30.00) {wstatus <- 'Overweight'}
         else {wstatus <- 'Obese'}
         return(wstatus) }
-BMI(68,1.65);weightstatus(68, 165) #Example: Weight=68 kg, Height=1.65 m
+#Example: Weight = 68 kg, Height = 1.65 m;
+BMI(68,1.65);weightstatus(68, 1.65) 
 ```
 
 ```
-[1] 24.98
+[1] 25
 ```
 
 ```
-[1] "Underweight"
+[1] "Normal"
 ```
 

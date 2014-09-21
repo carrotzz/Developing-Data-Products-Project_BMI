@@ -23,7 +23,7 @@ shinyUI(pageWithSidebar(
                 h4('BMI Calculation: '),
                 h4('Formular 1 : Weight (kg) / [Height (meter)]^2 '),
                 h4('or '),
-                h4('Formular 2 : Weight (lb) / [Height (inch)]^2 * 703 '),
+                h4('Formular 2 : (Weight (lb) / [Height (inch)]^2) * 703 '),
                 h4('--------------------------------------------------------------------------------------'),  
                 
                 h4('*Keep Weight And Height In Corresponding Units To Obtain Correct BMI !'),

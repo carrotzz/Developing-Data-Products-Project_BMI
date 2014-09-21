@@ -1,6 +1,6 @@
 library(shiny)
 shinyUI(pageWithSidebar(
-        headerPanel("BMI for Adults"),
+        headerPanel("BMI for Adult"),
         sidebarPanel(
                 h2('Introduction:'),
                 h4('This app is pretty easy to track an adult weight status by calculating his/her BMI.'), 

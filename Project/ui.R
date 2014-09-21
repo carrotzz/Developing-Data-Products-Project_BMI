@@ -33,7 +33,7 @@ shinyUI(pageWithSidebar(
                 verbatimTextOutput('out2'),
                 h4('--------------------------------------------------------------------------------------'),     
                 
-                h4('Below is the relationship between BMI and Weight Status for adult '),
+                h4('Below is the relationship between BMI and Weight Status for adult. '),
         
                 h5('      BMI       | Weight Status   '),
                 h5('Below 18.5     |  Underweight   '),

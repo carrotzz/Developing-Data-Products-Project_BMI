@@ -18,7 +18,7 @@ The app is pretty easy to track an adult weight status by calculating his/her BM
 * BMI Calculation:
 Formular 1 : Weight (kg) / [Height (meter)]^2
 or
-Formular 2 : Weight (lb) / [Height (inch)]^2 * 703
+Formular 2 : (Weight (lb) / [Height (inch)]^2) * 703
 
 
 * Below is the relationship between BMI and Weight Status 

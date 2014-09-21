@@ -21,9 +21,9 @@ shinyUI(pageWithSidebar(
         ),
         mainPanel(
                 h4('BMI Calculation: '),
-                h4('Formular 1 : Weight (kg) / [Height (meter)]^2 '),
+                h4('Formula 1 : Weight (kg) / [Height (meter)]^2 '),
                 h4('or '),
-                h4('Formular 2 : (Weight (lb) / [Height (inch)]^2) * 703 '),
+                h4('Formula 2 : (Weight (lb) / [Height (inch)]^2) * 703 '),
                 h4('--------------------------------------------------------------------------------------'),  
                 
                 h4('*Keep Weight And Height In Corresponding Units To Obtain Correct BMI !'),
@@ -33,7 +33,7 @@ shinyUI(pageWithSidebar(
                 verbatimTextOutput('out2'),
                 h4('--------------------------------------------------------------------------------------'),     
                 
-                h4('Below is the relationship between BMI and Weight Status '),
+                h4('Below is the relationship between BMI and Weight Status for adult '),
         
                 h5('      BMI       | Weight Status   '),
                 h5('Below 18.5     |  Underweight   '),

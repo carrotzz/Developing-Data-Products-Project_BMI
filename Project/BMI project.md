@@ -1,7 +1,7 @@
 BMI for Adult 
 ========================================================
 
-### A Project Presentation for Developing Data Product Course 
+### A Project Presentation for Developing Data Product course 
 
 - author: Linghuan Zeng
 - date: 9/20/2014
@@ -16,20 +16,20 @@ Contents
 
 - How to interprete BMI result?
 
-BMI and BMI Formula (for Adult) 
+BMI and BMI Formulae (for Adult) 
 ========================================================
 * *Body Mass Index (BMI)* is a number calculated from a person's weight and height
 * Calculation: 
-  +  Formular 1 :  Weight (kg) / [Height (meter)]^2   
+  +  Formula 1 :  Weight (kg) / [Height (meter)]^2   
   or 
-  + Formular 2 :  Weight (lb) / [Height (inch)]^2 * 703 
+  + Formula 2 :  ( Weight (lb) / [Height (inch)]^2 ) * 703 
 
  
 BMI (for Adult) Interpretation
 ========================================================
 * BMI can be considered an reliable alternative for direct measures of body fat. 
 * BMI is an inexpensive and easy-to-perform method of screening for weight categories that may lead to health problems.  
-* Below is the relationship between BMI and Weight Status 
+* Below is the relationship between BMI and Weight Status for adult. 
 
 BMI   | Weight Status
 ------------- | -------------
